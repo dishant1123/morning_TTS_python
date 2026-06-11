@@ -25,7 +25,7 @@ limitation :
 """
 # variable : 
 
-"""
+
 a=90    # a variable  name  90 static value  
 print(a)
 print("a value is:",a)
@@ -37,7 +37,7 @@ print(ahm)
 sales =90000000000
 print(sales)
 print("today sales  is  : ",sales)
-"""
+
 # data type  : 
 """
 1. integer :  pos  or neg value  store . 
@@ -53,6 +53,6 @@ e = 23456.5678903456789345674567856789
 print(e)
 print(type(e))
 
-f ="g"
+f ="#$%^&"
 print(f)
 print(type(f))
