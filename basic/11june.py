@@ -64,6 +64,23 @@ task  :1 ask user to enter the  integer type  number and concate  them .
 input  : a =78 
 input  : b =90
 output  : concate  of  two number is  :7890 
+
+task :2 ask user  to enter the  two float value  and  multiply them .
+
+task :3 ask user to enter the  string and  concate the string  with space. 
+input  a=ram 
+input b= shah
+output  : ram shah
+
+task :4 ask user to enter the 2 int  type  number  and  print addition subtraction multiplication division . 
+
+input  a= 12 
+input  b= 2 
+output  : 
+addition  of two number  is  :14 
+sub of two number is 10 
+multiply  of two number is  24 
+divison of two  number  is 6 
 """
 
 
