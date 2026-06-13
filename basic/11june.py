@@ -82,5 +82,10 @@ sub of two number is 10
 multiply  of two number is  24 
 divison of two  number  is 6 
 """
+a=int(input("enter the  number  a : "))
+b=int(input("enter the  number  b : "))
 
-
+print("sum is  : ",a+b)
+print("sub is  : ",a-b)
+print("mul is  : ",a*b)
+print("div is  : ",a/b)
