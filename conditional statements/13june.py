@@ -22,7 +22,7 @@ print(12 in l1)
 print(90 not in  l1)
 
 # a=a+b   a=a-b  a = a*b   
-a+=b    
+a+=b      a-=b
 print(a)
 """
 
