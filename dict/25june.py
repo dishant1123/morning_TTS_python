@@ -79,4 +79,9 @@ output  : {'ram': 90, 'sita': 99, 'ravan': 78}
 hint  : to empty dict   add  
 
 """
-
+d1={}    # d1['name'] = marks 
+for i in range(3) :  # name marks 
+    name = input("enter the name : ")
+    marks = int(input("enter the marks : "))
+    d1[name] = marks
+print(d1)

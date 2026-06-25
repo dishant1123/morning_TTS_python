@@ -97,6 +97,10 @@ print(l2)
 """
 
 # IQ : 9
-t = (12,45,78,23,90,56)  # sort  ===> asc to desc  ==> 12 23 45 56 78 90 
+# t = (12,45,78,23,90,56)  # sort  ===> asc to desc  ==> 12 23 45 56 78 90 
 # hint  using slicing
  
+t1 =(1,2,[5,6])  # 0 index ==>1   , 1 index ==> 2  2 index ==> [5,6]
+
+t1[2][1] =90
+print(t1)
