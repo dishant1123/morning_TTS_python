@@ -33,12 +33,12 @@ print(t1[ : : -1])
 
 # method  : index , count 
 
-t1=(1112,34,156,178,900,90.89,34)
+"""t1=(1112,34,156,178,900,90.89,34)
 
 print(t1.count(34))
 print(t1.index(34))
 print(t1.index(34,2))   #34 value ===> start 2 
-
+"""
 """
 Tuple - Theory Questions
 
@@ -78,3 +78,25 @@ Tuple Interview Questions
     output  : 78
 
 """
+# T que 3 :
+"""t1=(12,)
+print(t1)
+print(type(t1))
+"""
+
+# IQ : 8  
+"""t = (10,20,30,10,40,20,50)
+
+l1 = list(t)
+print(l1)
+l2 =[]
+for i in l1 :   # 10,20,30,10,40,20,50
+    if i not in l2 : 
+        l2.append(i)  # 10 ,20 ,30  ,40  50 
+print(l2)
+"""
+
+# IQ : 9
+t = (12,45,78,23,90,56)  # sort  ===> asc to desc  ==> 12 23 45 56 78 90 
+# hint  using slicing
+ 
