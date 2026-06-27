@@ -79,9 +79,21 @@ output  : {'ram': 90, 'sita': 99, 'ravan': 78}
 hint  : to empty dict   add  
 
 """
-d1={}    # d1['name'] = marks 
+"""d1={}    # d1['name'] = marks 
 for i in range(3) :  # name marks 
     name = input("enter the name : ")
     marks = int(input("enter the marks : "))
     d1[name] = marks
 print(d1)
+"""
+
+d1 ={"phy" : 90, "che" :89 }
+print(d1.get("phy"))   # arg   ===> key ===> print  value 
+
+l1=["ram","sita"]    
+# d2 = {"ram" :100, "sita" :100}
+
+d2 =dict.fromkeys(l1, 100)
+print(d2)
+d2["ram"] =90
+print(d2)
