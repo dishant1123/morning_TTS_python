@@ -20,7 +20,7 @@ print(s1)  # no changes in string  bcz of immutable.
 s1 ="my name is harshita singh."
 
 print(len(s1))
-print(min(s1))
+print(min(s1))  # ascci value 
 print(max(s1))
 print(sorted(s1))  # asc to desc
 print(sorted(s1,reverse=True))  # desc to asc
