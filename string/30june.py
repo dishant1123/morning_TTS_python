@@ -95,3 +95,87 @@ input  : my name is manthan patel.
 output : my_name is manthan_patel.
 
 """
+
+# task :1 
+"""
+s1 ="dishant dipakkumar shah"
+result = s1[0] +"." + s1[8]+ "." +s1[19: ]
+print(result)
+"""
+# task :2 
+
+# s1=input("enter first string : ")  # manthan
+# s2=input("enter second string : ") # patel 
+
+# s1 = s1[0 :3] + s2[3:]   # man 
+# s2 = s2[0 :3] + s1[3 :]
+
+# task :3 
+
+"""s1="restart"
+s2 =s1[0]  # r 
+result = s2 + s1[1:].replace("r","@")
+print(result)
+"""
+
+# task :4 
+"""s1="my name is manthan patel."
+
+result =s1.replace(" ","_",1)
+modify_string  = result[ : : -1].replace(" ","_",1)[ : : -1]
+print(modify_string)
+
+"""
+
+# task :5 
+"""
+count  the vowel in string. 
+
+input  : my name is manthan patel.
+output : vowel count :7
+
+hint : for   , ===> vowel = "aeiouAEIOU" , if  ,count+ ,print(count)
+"""
+
+"""s1 ="my name is manthan patel."  # input("enter string : ")
+vowel = "aeiouAEIOU"
+count =0 
+consonant_count =0 
+for i in s1:   #  i
+    if i in vowel :  # if i in  
+        count +=1   # 1
+    else :
+        consonant_count +=1  # 2
+print("vowel count :",count)
+print("consonant count :",consonant_count)
+"""
+
+# task :6 print pelindrome string in separate list.
+"""
+l1 =["maam","php","java","c++","python"]
+output  : ["maam","php"]
+
+"""
+# l1 =["maam","php","java","c++","python"]
+
+l1=[121,1345,234,678,141]
+result=[]
+
+for x in  l1 :   # 121
+    if str(x) ==str(x)[::-1]:  # "121" == "121"[::-1]
+        result.append(x)
+print(result)
+
+# task :7 
+"""
+input  : l1 =["maam","php","java","c++","python","1221","aba"]
+output : l2 = ["maam","php","java","aba",1221]
+
+condition  :1. len more than 3  and  equal to 3  
+            2. first letter and last letter same. 
+"""
+
+
+
+
+
