@@ -47,7 +47,8 @@ for i in range(-10,30) :
 """
 # ex :-40 to -10 
 
-"""for x in range(-40,-10) :
+"""
+for x in range(-40,-10) :
     print(x,end=" ")
 """
 
