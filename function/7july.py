@@ -22,7 +22,13 @@ print(x())
 
 print(sum1(12,56))
 """
+# ex :3 with arg no return
 
+"""def sum2(a,b):
+    print(a+b)
+    
+sum2(12,56)
+"""
 # local variable : declared inside function not accessible outside function
 
 """def k():
@@ -123,5 +129,6 @@ else :
     print("you are not eligible for voting")
     
 """    
-re =lambda age :  print("eligible for  vote") if age >18 else print("not eligible for vote")
+"""re =lambda age :  print("eligible for  vote") if age >18 else print("not eligible for vote")
 re(4)
+"""
