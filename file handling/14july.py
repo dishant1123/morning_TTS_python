@@ -77,10 +77,11 @@ with open("harshita.txt",'r') as f :
 """
 
 # try except 
-
+"""
 try :
     a=int(input("enter the number : "))
     b=int(input("enter the number : "))
     print(a/b)
 except ZeroDivisionError:
-    print("you can't divide by zero")
+    print("you can't divide by zero") 
+    """
