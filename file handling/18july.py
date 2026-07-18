@@ -34,3 +34,10 @@ input : my name is harshita singh.
 output : total number of  words : 16 
          total number of  statements : 4
 """
+
+s1="my name is harshita singh."
+
+result = s1.split()
+print(result)
+total_words = len(result)
+print(total_words)
