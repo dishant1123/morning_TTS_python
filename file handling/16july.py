@@ -168,5 +168,7 @@ for i in name :   #
 """for  i  in enumerate(name):
     print(i)
 """
+"""
 for j in enumerate(name,start=101):
     print(j)
+"""
