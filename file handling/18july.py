@@ -9,6 +9,28 @@ output  : vowel.txt : ae i aia i
 
 """
 
-s1=input("enter the string : ")
-print(s1)
+"""s1=input("enter the string : ")  # my name is harshita singh.
 
+for i in s1 :
+    if i in 'aeiouAEIOU' :
+        with open("vowel.txt","a") as f :
+            f.write(i)
+    else : 
+        with open("consonant.txt","a") as f :
+            f.write(i)
+
+"""
+
+# 2. ask user to enter the string and seprate the vowel and consonant in seprate txt file.and  count the total vowel and  consonant.
+
+"""
+3. ask user to enter the  string and count  the total words , number of statements in separate  txt file.
+
+input : my name is harshita singh.
+        i love to play football.
+        study in college.
+        live in ahmedabad.
+        
+output : total number of  words : 16 
+         total number of  statements : 4
+"""
