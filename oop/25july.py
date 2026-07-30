@@ -21,9 +21,7 @@ fruits :  <=== class
 
 d=demo()   # d ====> object 
 """    
-
 # ex :2 
-
 """class student :
     name ="manthan"   # name  ,age 
     age =21 
@@ -33,10 +31,8 @@ s=student()
 print("name is  :",s.name)
 print("age is  :",s.age)
 """
-
 # ex :3 
-"""
-class employess:
+"""class employess:
     name ="manthan"   # name  ,age
     salary =90000 
     
@@ -51,7 +47,6 @@ e.name="raju"
 e.salary=89000
 e.show()
 """
-
 # ex :4 
 """
 1. public : can access from anywhere.
@@ -80,7 +75,8 @@ print("age is  :",s.age)
 
 # ex :6  private  : __ (underscore)
 
-"""class employess:
+"""
+class employess:
     name ="manthan"   # name  ,age  ====> public
     age =22
     __salary =90000    # private 
@@ -91,8 +87,8 @@ print("age is  :",s.age)
 e=employess()
 print("name is :",e.name)
 print("age is :",e.age)
-# print("__salary is :",e.__salary)  # not  possible outside the  class bcz of private 
-# e.__salary =70000  # you can't change the value of private variable
+print("__salary is :",e.__salary)  # not  possible outside the  class bcz of private 
+e.__salary =70000  # you can't change the value of private variable
 e.display()
 """
 
@@ -117,3 +113,5 @@ class company(employees):
 
 c=company()
 c.information()
+print("name is  :",c.name)
+print("age is  :",c.age)
